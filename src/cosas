@@ -1,0 +1,11 @@
+INSTACEOF: sirve para saber si una clase es igual a la clase
+	
+	for (int i = 0; i < clinica.size(); i++) {
+			
+			Medico a = (Medico) clinica.get(i);
+	
+	if (a instanceof Ortopedista) { //determina si es un ortopedista
+			System.out.println("El objeto es un Ortopedista\n");
+			
+			continue; //esto hace q salte al siguiente objeto de la lista
+			}
