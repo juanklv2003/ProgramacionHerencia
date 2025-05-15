@@ -40,11 +40,11 @@ public abstract class SeleccionFutbol {
 	}
 	
 	public void viajar() {
-		System.out.println("Viaja");
+		System.out.println("Viaja (Clase padre)");
 	}
 	
 	public void concentrarse() {
-		System.out.println("Se concentra");
+		System.out.println("Se concentra (Clase padre)");
 	}
 	
 	public abstract void entrenamiento();

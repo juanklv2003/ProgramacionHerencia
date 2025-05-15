@@ -3,9 +3,9 @@ package a12Liga;
 public class Futbolista extends SeleccionFutbol{
 
 	private int dorsal;
-	private int posicion;
+	private String posicion;
 	
-	public Futbolista(int id, String nombre, String apellidos, int edad, int dorsal, int posicion) {
+	public Futbolista(int id, String nombre, String apellidos, int edad, int dorsal, String posicion) {
 		super(id, nombre, apellidos, edad);
 		this.dorsal = dorsal;
 		this.posicion = posicion;
@@ -19,11 +19,11 @@ public class Futbolista extends SeleccionFutbol{
 		this.dorsal = dorsal;
 	}
 
-	public int getPosicion() {
+	public String getPosicion() {
 		return posicion;
 	}
 
-	public void setPosicion(int posicion) {
+	public void setPosicion(String posicion) {
 		this.posicion = posicion;
 	}
 	
